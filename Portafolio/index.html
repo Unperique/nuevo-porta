@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='16' font-size='16'>&#xF1E2;</text></svg>" type="image/svg+xml">
+</head>
+<body>
+    <div class="portfolio">
+        <header class="profile-header">
+            <img src="yo.jpeg" alt="Andres Morales" class="profile-image">
+            <div class="profile-info">
+                <h1>Andres Felipe Morales Mejia</h1>
+                <p>Desarrollador de software</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/andres-felipe-morales-20b944213/?originalSubdomain=co" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Unperique" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/573006157904" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <a href="hoja_de_vida.pdf" download class="download-cv">
+                    <i class="fas fa-download"></i> Descargar CV
+                </a>
+            </div>
+        </header>
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="sobre-mi">Sobre mí</button>
+            <button class="tab-button" data-tab="proyectos">Proyectos</button>
+            <button class="tab-button" data-tab="contacto">Contacto</button>
+        </nav>
+        <div class="tab-content">
+            <div id="sobre-mi" class="tab-pane active">
+                <h2>Sobre mí</h2>
+                <p>No soy una máquina, soy un desarrollador con ganas de aprender cada día nuevas habilidades y tecnologías. Mi nombre es Andrés Felipe Morales Mejía y soy estudiante de la Universidad Tecnológica de Pereira, en la carrera de ingeniería de sistemas y computación. Mi enfoque principal es el frontend, pero me le mido a lo que sea.</p>
+                
+                <h3>Hobbies</h3>
+                <p>Fanático del deporte como Taekwondo y Baloncesto, ex-selección de Taekwondo de mi departamento, fan de la música de los 80s, baladas y rock, apasionado de los videojuegos y el buen comer, además de los viajes, las aventuras en moto por paisajes de mi país.</p>
+                
+                <h3>Habilidades Técnicas</h3>
+                <div class="skills-container">
+                    <img src="image/c.png" alt="C" title="C">
+                    <img src="image/c++.png" alt="C++" title="C++">
+                    <img src="image/java.png" alt="Java" title="Java">
+                    <img src="image/javascript.png" alt="JavaScript" title="JavaScript">
+                    <img src="image/python.png" alt="Python" title="Python">
+                    <img src="image/css.png" alt="CSS" title="CSS">
+                    <img src="image/html.png" alt="HTML" title="HTML">
+                    <img src="image/net.png" alt=".NET" title=".NET">
+                    <img src="image/react.png" alt="React" title="React">
+                    <img src="image/nodejs.png" alt="Node.js" title="Node.js">
+                    <img src="image/github.png" alt="GitHub" title="GitHub">
+                    <img src="image/mysql.png" alt="MySQL" title="MySQL">
+                    <img src="image/typescript.png" alt="TypeScrip" title="TypeScrip">
+                    <img src="image/php.png" alt="PHP" title="PHP">
+                </div>
+            </div>
+            <div id="proyectos" class="tab-pane">
+                <h2>Mis Proyectos</h2>
+                <div class="proyecto">
+                    <h3>Envío de correos automatizados</h3>
+                    <p>En la empresa necesitaba este servicio ya que al cliente no le llegaba el correo de los productos o mensualidades, por lo que usando Excel y AppScript realicé un envío automático de correos y personalizados.</p>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="image/envioCorreosAutomatizados.png" alt="Proyecto 1 - Imagen 1">
+                            <img src="proyecto1-imagen2.jpg" alt="Proyecto 1 - Imagen 2">
+                            <img src="proyecto1-imagen3.jpg" alt="Proyecto 1 - Imagen 3">
+                        </div>
+                        <button class="carousel-prev">&lt;</button>
+                        <button class="carousel-next">&gt;</button>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <h3>Sistema de información</h3>
+                    <p>Fui seleccionado para que la Facultad de Doctorado en Ingenierías, la cual usaba muchas tablas de hojas de cálculo de Google para el manejo de la información. Para solucionar este problema y sin gastar recursos de la facultad, usé AppSheet de Google para un mejor manejo de información de cada estudiante.</p>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="image/SistemaInformación.png" alt="Proyecto 2 - Imagen 1">
+                            <img src="proyecto2-imagen2.jpg" alt="Proyecto 2 - Imagen 2">
+                            <img src="proyecto2-imagen3.jpg" alt="Proyecto 2 - Imagen 3">
+                        </div>
+                        <button class="carousel-prev">&lt;</button>
+                        <button class="carousel-next">&gt;</button>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <h3>Otros proyectos</h3>
+                    <p>Para más proyectos puedes visitar mi GitHub.</p>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="image/programas1.png" alt="Proyecto 3 - Imagen 1">
+                            <img src="proyecto3-imagen2.jpg" alt="Proyecto 3 - Imagen 2">
+                            <img src="proyecto3-imagen3.jpg" alt="Proyecto 3 - Imagen 3">
+                        </div>
+                        <button class="carousel-prev">&lt;</button>
+                        <button class="carousel-next">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div id="contacto" class="tab-pane">
+                <h2>Contacto</h2>
+                <p>Email: andresfelipemoralesmejia@gmail.com</p>
+                <p>LinkedIn: Andres Felipe Morales</p>
+                <p>GitHub: Unperique</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
